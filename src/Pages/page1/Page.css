@@ -1,0 +1,76 @@
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  div p {
+    font-size:20px;
+  }
+  .summary strong{
+    font-size: 20px;
+  }
+  .summary div{
+    color: #fff;
+  }
+
+  .movie-container {
+    display: flex;
+    gap: 60px;
+    max-width: 1000px;
+    height: 400px;
+  }
+  
+  .left {
+    text-align: center;
+  }
+  
+  .left img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .right {
+    margin-left: 20px;
+  }
+  
+  .buy-ticket-button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Modal styles */
+  .modal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
